@@ -1,0 +1,14 @@
+{
+  "name": "miles",
+  "version": "1.0.0",
+  "description": "bitmap experiment",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "keywords": [
+    "bitmap"
+  ],
+  "author": "mh",
+  "license": "ISC"
+}
