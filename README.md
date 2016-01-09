@@ -1,3 +1,4 @@
 # bitmapTransform
 
-Codefellows class exercise
+Codefellows class exercise in bitmap transformation.
+

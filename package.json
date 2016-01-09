@@ -4,11 +4,22 @@
   "description": "bitmap experiment",
   "main": "index.js",
   "scripts": {
-    "test": "test"
+    "test": "gulp"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:apinfodesign/bitmapTransform.git"
   },
   "keywords": [
     "bitmap"
   ],
   "author": "mh",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "gulp": "^3.9.0",
+    "gulp-jshint": "^2.0.0",
+    "gulp-mocha": "^2.2.0",
+    "gulp-util": "^3.0.7",
+    "jshint": "^2.8.0"
+  }
 }
