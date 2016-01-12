@@ -16,6 +16,7 @@ module.exports = function filetransform(filename,outputfile,callback){
 		var pixelstart = 	data.readUInt32LE(10);
 		var justImage  = 	data.slice(pixelstart, pixelend);
 
+		//do a transformation of the .bmp file
  	 	for (var key of justImage.keys() ) {
 	 		//invert colors  //test here
 	   		justImage[key] = 255 - justImage[key];
